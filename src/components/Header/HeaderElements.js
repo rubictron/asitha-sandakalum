@@ -23,7 +23,6 @@ export const HeaderContainer = styled.div`
         bottom:0;
         background : liner-gradient(180deg,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%),
         liner-gradient(180deg,rgba(0,0,0,0.2) 0%,transparent 100%);
-        z-index:2;
 
     }
 
@@ -71,11 +70,11 @@ export const HeaderH1 = styled.h1`
     -1px  1px 0 #000,
      1px  1px 0 #000;
 
-    @media scren and (max-width:768px){
+    @media screen and (max-width:768px){
         font-size:48px;
     }
 
-    @media scren and (max-width:480px){
+    @media screen and (max-width:480px){
         font-size:32px;
     }
 
@@ -96,11 +95,11 @@ export const HeaderP = styled.p`
      1px  1px 0 #000;
 
 
-    @media scren and (max-width:768px){
+    @media screen and (max-width:768px){
         font-size:24px;
     }
 
-    @media scren and (max-width:480px){
+    @media screen and (max-width:480px){
         font-size:18px;
     }
 

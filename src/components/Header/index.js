@@ -25,7 +25,7 @@ const Header = props => {
     return (
         <HeaderContainer id="home">
             <HeaderBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+                <VideoBg autoPlay loop muted playsinline src={Video} type='video/mp4'/>
             </HeaderBg>
             <HederContent>
                 <HeaderH1>Asitha Sandakalum</HeaderH1>
