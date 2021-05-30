@@ -1,2 +1,0 @@
-(this["webpackJsonpasitha-sandakalum"]=this["webpackJsonpasitha-sandakalum"]||[]).push([[0],{10:function(t,n,e){"use strict";e.r(n);var a=e(1),s=e.n(a),c=e(3),r=e.n(c),i=(e(8),e(0));var o=function(){return Object(i.jsx)("h1",{children:"Hello RUBICTRON"})};r.a.render(Object(i.jsx)(s.a.StrictMode,{children:Object(i.jsx)(o,{})}),document.getElementById("root"))},8:function(t,n,e){}},[[10,1,2]]]);
-//# sourceMappingURL=main.5595bc9d.chunk.js.map
