@@ -7,15 +7,16 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLinks
+    NavLinks,
+    NavBtn,
+    NavBtnLink
 } from './NavbarElements'
-const Navbar = props => {
+const Navbar = ({toggle}) => {
     return (
-        <div>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">RUBICTRON</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
@@ -29,9 +30,11 @@ const Navbar = props => {
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink href="/">GitHub</NavBtnLink>
+                    </NavBtn>
                 </NavbarContainer>
             </Nav>
-        </div>
     )
 }
 

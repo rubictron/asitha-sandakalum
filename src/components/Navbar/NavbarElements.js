@@ -4,13 +4,15 @@ import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
     background : #000;
-    highet : 80px;
-    /*margin-top: -80px;*/
+    display:flex;
+    position:sticky;
+    height : 80px;
+    margin-top: -80px;
     justify-content : center;
     align-items:container;
     font-size:1.5rem;
     top :0;
-    z-index : 10
+    z-index:10;
 
     @media screen and (max-width:960px){
         transmition:0.8s all ease;
@@ -23,8 +25,9 @@ export const NavbarContainer = styled.div`
     justify-content : space-between;
     height :80px;
     z-index :1;
-    width : 100%
-    padding : 0 14px;max-width 1100px;  
+    width : 100%;
+    padding : 0 14px;
+    
 
 `
 
@@ -60,7 +63,8 @@ export const NavMenu = styled.ul`
     align-items : center;
     list-style:none;
     text-align:center;
-    margin-right:22px;
+    /*margin-right:-22px;*/
+    margin:0 auto;
 
     @media screen and (max-width : 768px){
         display:none;
@@ -80,8 +84,39 @@ export const NavLinks = styled(LinkS)`
     height 100%;
     cursor : pointer;
 
-    &.active{
+    &:active{
         border-bottom:3px solid #1a75ff
     }
 
 `
+
+export const NavBtn = styled.nav`
+    display:flex;
+    align-items:center;
+    margin-right:24px;
+    @media screen and (max-width:768px){
+        display:none;
+    }
+`
+
+
+export const NavBtnLink = styled(LinkR)`
+    border-radius:50px;
+    background:#1a75ff;
+    wite-space:nowrap;
+    padding:10px 22px;
+    color : #000;
+    font-size:16px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration : none;
+
+    &:hover {
+        transition : all 0.2s ease-in-out;
+        background : #fff;
+        color:#010606;
+    }
+`
+
