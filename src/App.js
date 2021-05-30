@@ -1,8 +1,12 @@
 import './App.css';
-import {BrowserRouter as Router } from 'react-router-dom'
+import Navbar  from './components/Navbar'
+import { BrowserRouter as Router } from 'react-router-dom'
+
 function App() {
   return (
-    <h1>Hello RUBICTRON</h1>
+    <Router>
+      <Navbar/>
+    </Router>
   );
 }
 
