@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/asitha-sandakalum/static/css/main.1ac846b3.chunk.css",
-    "main.js": "/asitha-sandakalum/static/js/main.1ec4d066.chunk.js",
-    "main.js.map": "/asitha-sandakalum/static/js/main.1ec4d066.chunk.js.map",
+    "main.js": "/asitha-sandakalum/static/js/main.cf5590fa.chunk.js",
+    "main.js.map": "/asitha-sandakalum/static/js/main.cf5590fa.chunk.js.map",
     "runtime-main.js": "/asitha-sandakalum/static/js/runtime-main.c9effcda.js",
     "runtime-main.js.map": "/asitha-sandakalum/static/js/runtime-main.c9effcda.js.map",
     "static/js/2.c146b19d.chunk.js": "/asitha-sandakalum/static/js/2.c146b19d.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c9effcda.js",
     "static/js/2.c146b19d.chunk.js",
     "static/css/main.1ac846b3.chunk.css",
-    "static/js/main.1ec4d066.chunk.js"
+    "static/js/main.cf5590fa.chunk.js"
   ]
 }
