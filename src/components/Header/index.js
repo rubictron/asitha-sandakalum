@@ -37,7 +37,7 @@ const Header = props => {
                     <ButtonS 
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
-                        to="resume"
+                        to="about"
                         primary='true'>
                         Get Start {hover ? <ArrowForward/> :<ArrowRight/>}
                     </ButtonS> 
