@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaBars} from 'react-icons/fa'
+import {FaBars,FaBlogger,FaGithub} from 'react-icons/fa'
 import {
     Nav,
     NavbarContainer,
@@ -8,8 +8,10 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
+    NavLinko,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavBtnLinko
 } from './NavbarElements'
 const Navbar = ({toggle}) => {
     return (
@@ -30,11 +32,17 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="skills">Skills</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact">Contact</NavLinks>
+                            <NavLinks to="projects">Projects</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="contacts">Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink href="/">GitHub</NavBtnLink>
+                        <NavBtnLinko href="https://rubictronsandakalum.blogspot.com/"><FaBlogger/></NavBtnLinko>
+                    </NavBtn>
+                    <NavBtn>
+                        <NavBtnLinko href="https://github.com/rubictron"><FaGithub/></NavBtnLinko>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

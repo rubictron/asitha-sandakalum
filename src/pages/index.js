@@ -5,6 +5,8 @@ import Sidebar from  '../components/Sidebar'
 import Header from '../components/Header'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
+import Experience from './Experience'
 const Home = props => {
 
     const [isOpen,setIsOpen] = useState(false)
@@ -19,7 +21,9 @@ const Home = props => {
             <Navbar toggle={toggle}/>
             <Header/>
             <About />
+            {/*<Experience/>*/}
             <Skills/>
+            <Projects/>
         </div>
     )
 }

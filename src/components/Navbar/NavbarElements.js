@@ -90,6 +90,21 @@ export const NavLinks = styled(LinkS)`
 
 `
 
+export const NavLinko = styled.a`
+    color:#fff;
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    padding:0 1rem;
+    height 100%;
+    cursor : pointer;
+
+    &:active{
+        border-bottom:3px solid #1a75ff
+    }
+
+`
+
 export const NavBtn = styled.nav`
     display:flex;
     align-items:center;
@@ -107,6 +122,26 @@ export const NavBtnLink = styled(LinkR)`
     padding:10px 22px;
     color : #000;
     font-size:16px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration : none;
+
+    &:hover {
+        transition : all 0.2s ease-in-out;
+        background : #fff;
+        color:#010606;
+    }
+`
+
+export const NavBtnLinko = styled.a`
+    //border-radius:50px;
+    //background:#1a75ff;
+    wite-space:nowrap;
+    padding:2px 10px;
+    color : #FFF;
+    font-size:35px;
     outline:none;
     border:none;
     cursor:pointer;

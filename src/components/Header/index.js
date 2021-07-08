@@ -30,8 +30,7 @@ const Header = props => {
             <HederContent>
                 <HeaderH1>Asitha Sandakalum</HeaderH1>
                 <HeaderP>
-                    I am a Full Stack Developer Graduate from University Of Ruhuna Srilanka.
-
+                    Stop Wishing Start Doing Success Is The Destination
                 </HeaderP>
                 <HeaderBtnWrapper>
                     <ButtonS 

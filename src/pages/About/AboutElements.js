@@ -40,7 +40,9 @@ export const AboutContent = styled.p`
 
 
 export const AboutTitle = styled.h1`
-    font: 22px/30px 'opensans-bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: all-small-caps;
     color: #fff;
     margin-bottom: 12px;
    `
