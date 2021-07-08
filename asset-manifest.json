@@ -1,24 +1,29 @@
 {
   "files": {
     "main.css": "/asitha-sandakalum/static/css/main.659956cb.chunk.css",
-    "main.js": "/asitha-sandakalum/static/js/main.773f65c9.chunk.js",
-    "main.js.map": "/asitha-sandakalum/static/js/main.773f65c9.chunk.js.map",
+    "main.js": "/asitha-sandakalum/static/js/main.d1e49bac.chunk.js",
+    "main.js.map": "/asitha-sandakalum/static/js/main.d1e49bac.chunk.js.map",
     "runtime-main.js": "/asitha-sandakalum/static/js/runtime-main.c9effcda.js",
     "runtime-main.js.map": "/asitha-sandakalum/static/js/runtime-main.c9effcda.js.map",
     "static/css/2.150d169a.chunk.css": "/asitha-sandakalum/static/css/2.150d169a.chunk.css",
-    "static/js/2.b1c3c87c.chunk.js": "/asitha-sandakalum/static/js/2.b1c3c87c.chunk.js",
-    "static/js/2.b1c3c87c.chunk.js.map": "/asitha-sandakalum/static/js/2.b1c3c87c.chunk.js.map",
+    "static/js/2.b9b5ce89.chunk.js": "/asitha-sandakalum/static/js/2.b9b5ce89.chunk.js",
+    "static/js/2.b9b5ce89.chunk.js.map": "/asitha-sandakalum/static/js/2.b9b5ce89.chunk.js.map",
     "index.html": "/asitha-sandakalum/index.html",
     "static/css/2.150d169a.chunk.css.map": "/asitha-sandakalum/static/css/2.150d169a.chunk.css.map",
     "static/css/main.659956cb.chunk.css.map": "/asitha-sandakalum/static/css/main.659956cb.chunk.css.map",
-    "static/js/2.b1c3c87c.chunk.js.LICENSE.txt": "/asitha-sandakalum/static/js/2.b1c3c87c.chunk.js.LICENSE.txt",
-    "static/media/background_video.fe701c20.mp4": "/asitha-sandakalum/static/media/background_video.fe701c20.mp4"
+    "static/js/2.b9b5ce89.chunk.js.LICENSE.txt": "/asitha-sandakalum/static/js/2.b9b5ce89.chunk.js.LICENSE.txt",
+    "static/media/airmouse.499d17be.jpg": "/asitha-sandakalum/static/media/airmouse.499d17be.jpg",
+    "static/media/background_video.fe701c20.mp4": "/asitha-sandakalum/static/media/background_video.fe701c20.mp4",
+    "static/media/inventry.2bc7087b.png": "/asitha-sandakalum/static/media/inventry.2bc7087b.png",
+    "static/media/jfiller.909294f3.jpg": "/asitha-sandakalum/static/media/jfiller.909294f3.jpg",
+    "static/media/jreq.c6e9e480.jpg": "/asitha-sandakalum/static/media/jreq.c6e9e480.jpg",
+    "static/media/usbblock.0cfa0cda.jpg": "/asitha-sandakalum/static/media/usbblock.0cfa0cda.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c9effcda.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.b1c3c87c.chunk.js",
+    "static/js/2.b9b5ce89.chunk.js",
     "static/css/main.659956cb.chunk.css",
-    "static/js/main.773f65c9.chunk.js"
+    "static/js/main.d1e49bac.chunk.js"
   ]
 }
