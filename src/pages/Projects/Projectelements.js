@@ -4,12 +4,13 @@ export const ProjectContainer = styled.section`
     background: #428af5;
     padding-top: 96px;
     padding-bottom: 66px;
-    padding 96px 20px 66px 20px
+    padding-left:15px;
+    padding-right:15px;
     overflow: hidden;
     min-height:300px;
 `
 export const ProjectCardcontainer = styled.div`
-    margin: 20px 20px;
+    padding: 10px 10px;
 `
 export const ProjectTitle = styled.h1`
     font-weight: bold;
