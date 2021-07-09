@@ -36,7 +36,7 @@ export const FooterLinkWrapper= styled.div`
     }
 `
 
-export const FooterLink= styled(LinkR)`
+export const FooterLink= styled.a`
     color:#fff;
     text-decoration:none;
     margin-bottom:0.5rem;
@@ -48,6 +48,19 @@ export const FooterLink= styled(LinkR)`
     }
 
 `
+export const FooterItem= styled.p`
+    color:#fff;
+    text-decoration:none;
+    margin-bottom:0.5rem;
+    font-size:14px;
+
+    &:hover{
+        color:#1a75ff;
+        transition:0.3 ease-in;
+    }
+
+`
+
 export const FooterLinkItems = styled.div`
     display:flex;
     flex-direction:column;

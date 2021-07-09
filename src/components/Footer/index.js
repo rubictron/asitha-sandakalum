@@ -20,7 +20,8 @@ import {
     SocialLogo,
     WebsiteRights,
     SocialMediaWrap,
-    SocialMedia
+    SocialMedia,
+    FooterItem
 } from './FooterElements'
 
 const Footer = props => {
@@ -32,31 +33,30 @@ const Footer = props => {
                     <FooterLinkWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>PHONE</FooterLinkTitle>
-                            <FooterLink to="/">+94702014509</FooterLink>
-                            <FooterLink to="/">+94771765761</FooterLink>
+                            <FooterItem >+94702014509</FooterItem>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>ADDRESS</FooterLinkTitle>
-                            <FooterLink to="/">
+                            <FooterItem >
                             Asitha Sandakalum,<br/>
                             No 759/35,<br/>
                             Kudagama,<br/>
                             Hatton(22000),<br/>
                             Sri Lanka.
-                            </FooterLink>
+                            </FooterItem>
                         </FooterLinkItems>
                     </FooterLinkWrapper>
                     <FooterLinkWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>SOCIAL MEDIA</FooterLinkTitle>
-                            <FooterLink to="/">linkedIn</FooterLink>
-                            <FooterLink to="/">FaceBook</FooterLink>
-                            <FooterLink to="/">Youtube</FooterLink>
+                            <FooterLink href="http://linkedin.com/in/asitha-sandakalum">linkedIn</FooterLink>
+                            <FooterLink href="https://www.facebook.com/asitha.sandakalum">FaceBook</FooterLink>
+                            <FooterLink href="https://www.youtube.com/channel/UCRhordWjJgBuEf5wnh0x1uw/featured">Youtube</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>OTHERS</FooterLinkTitle>
-                            <FooterLink to="/">GitHub</FooterLink>
-                            <FooterLink to="/">Blog</FooterLink>
+                            <FooterLink href="https://github.com/rubictron">GitHub</FooterLink>
+                            <FooterLink href="https://rubictronsandakalum.blogspot.com">Blog</FooterLink>
                         </FooterLinkItems>
                     </FooterLinkWrapper>
                 </FooterLinkContainer>
