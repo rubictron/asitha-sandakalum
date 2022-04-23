@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const AboutContainer = styled.section`
-    background: #141452;
+    
+    background-color:#9f80ff;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -9,9 +10,10 @@ export const AboutContainer = styled.section`
 `
 
 export const ProfileImg = styled.img`
-width: 200px;
-height: 200px;
+width: 500px;
+height: 500px;
 border-radius: 100%;
+margin-right:55px;
 
 
 @media screen and (max-width:768px){
@@ -42,7 +44,9 @@ export const AboutContent = styled.p`
 export const AboutTitle = styled.h1`
     font-weight: bold;
     font-style: italic;
+    font-size: 5rem;
     font-variant: all-small-caps;
     color: #fff;
     margin-bottom: 12px;
+    margin-top:50px;
    `

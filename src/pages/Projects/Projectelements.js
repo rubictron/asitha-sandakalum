@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ProjectContainer = styled.section`
-    background: #428af5;
     padding-top: 96px;
     padding-bottom: 66px;
     padding-left:15px;

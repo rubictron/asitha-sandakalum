@@ -14,17 +14,7 @@ import {
 
 class About extends Component {
   render() {
-    //if (!this.props.data) return null;
 
-    const name = "Asitha";//this.props.data.name;
-    const bio = "Asitha";//this.props.data.bio;
-    const street = "Asitha";//this.props.data.address.street;
-    const city = "Asitha";//this.props.data.address.city;
-    const state = "Asitha";//this.props.data.address.state;
-    const zip = "Asitha";//this.props.data.address.zip;
-    const phone = "Asitha"; //this.props.data.phone;
-    const email = "Asitha";//this.props.data.email;
-    const resumeDownload = "Asitha";//this.props.data.resumedownload;
 
     return (
       <Fade left>

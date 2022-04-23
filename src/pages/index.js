@@ -1,5 +1,9 @@
 import React,{useState} from 'react'
 import PropTypes from 'prop-types'
+import {
+    HomeContainer,
+    Hline
+} from './HomeElements'
 import Navbar  from '../components/Navbar'
 import Sidebar from  '../components/Sidebar'
 import Header from '../components/Header'
@@ -16,15 +20,17 @@ const Home = props => {
     }
 
     return (
-        <div>
+       <HomeContainer> 
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle}/>
             <Header/>
             <About />
-            {/*<Experience/>*/}
+            <Experience/>
+                <Hline/>
             <Skills/>
+                <Hline/>
             <Projects/>
-        </div>
+       </HomeContainer> 
     )
 }
 

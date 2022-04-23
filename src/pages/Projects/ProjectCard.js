@@ -8,11 +8,11 @@ import  { Col,Card,Button }  from 'react-bootstrap';
 const ProjectCard = props => {
 
     return (
-      <Col md={3}>
+      <Col md={4}>
       <ProjectCardcontainer>
       <Fade left>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={props.imglink} />
+        <Card style={{ width: '100%' }}>
+          <Card.Img variant="top" src={props.imglink} style={{ height: '27rem' }}/>
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text>

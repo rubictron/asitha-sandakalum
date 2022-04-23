@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const SkillContainer = styled.section`
-    background: #FFF;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -13,6 +12,7 @@ export const PbarContainer =  styled.div`
 `
 
 export const SkillHeader = styled.h3`
+    margin-top:3.5rem;
     margin-left:25px;
     font-weight: bold;
     font-style: italic;
